@@ -1,0 +1,16 @@
+Énoncé
+
+Écrire un programme Java qui :
+
+lit deux entiers saisis au clavier avec Scanner ;
+
+calcule leur somme et leur produit ;
+
+affiche chacun des résultats avec System.out.println ou System.out.printf.
+
+Exemple d’exécution :
+
+Entrez le premier nombre : 7
+Entrez le second nombre  : 3
+La somme vaut    : 10
+Le produit vaut  : 21 

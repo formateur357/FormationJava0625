@@ -12,7 +12,7 @@ public class Main {
 		scan.nextLine(); // consomme le retour chariot.
 		
 		// Creation d'une instance de livre livre 
-		// Livre livre1 = new Livre("Le horla, Zola, 5"); exemple de 
+		// Livre livre1 = new Livre("Le horla, Zola, 5");
 
 		for (int i = 0; i < nb; i++) {
 			System.out.print("%n--- Livre %d ---%n", id + 1);

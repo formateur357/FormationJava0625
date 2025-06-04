@@ -11,6 +11,9 @@ public class Main {
 		int nb = scan.hasNextInt() ? scan.nextInt() : 0;
 		scan.nextLine(); // consomme le retour chariot.
 		
+		// Creation d'une instance de livre livre 
+		// Livre livre1 = new Livre("Le horla, Zola, 5"); exemple de 
+
 		for (int i = 0; i < nb; i++) {
 			System.out.print("%n--- Livre %d ---%n", id + 1);
 			
@@ -26,6 +29,7 @@ public class Main {
 
 			// creation du livre et ajout du livre au rayon
 			rayon.add(new Livre(titre, auteur, prix));
+			
 		}
 		
 		// Affichage du resultat

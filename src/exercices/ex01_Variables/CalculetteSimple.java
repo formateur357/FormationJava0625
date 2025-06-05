@@ -17,5 +17,7 @@ public class CalculetteSimple {
 		int produit = nb * nb2;
 		
 		System.out.println("Somme : " + somme + "\nProduit : " + produit);
+		
+		scan.close();
 	}
 }

@@ -1,3 +1,5 @@
+package exercices.ex04_Collections;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,8 +1,10 @@
-package exercices.Ex05_Classe
+package exercices.ex05_Classe;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class TestLivre {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		List<Livre> rayon = new ArrayList<>();
@@ -15,7 +17,7 @@ public class Main {
 		// Livre livre1 = new Livre("Le horla, Zola, 5");
 
 		for (int i = 0; i < nb; i++) {
-			System.out.print("%n--- Livre %d ---%n", id + 1);
+			System.out.printf("%n--- Livre %d ---%n", i + 1);
 			
 			System.out.print("Titre : ");
 			String titre = scan.nextLine().trim();

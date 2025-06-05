@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package exemples;
 
 public class Bonjour { // Accolade débutant la classe Bonjour
 	public static void main(String args[]) { // Accolade débutant la méthode main
@@ -7,12 +7,10 @@ public class Bonjour { // Accolade débutant la classe Bonjour
 			System.out.println("Usage: java Bonjour <prenom>");
 			return;
 		}
-		Scanner scan = new Scanner(System.in);
 		
 		for (String arg : args) {
 			System.out.println("Bonjour " + arg );
 			System.out.println("Bonjour %s".formatted(arg));
-			System.out.println(STR."Bonjour \{arg}");
 		}
 	} // Accolade fermant la méthode main
 } 

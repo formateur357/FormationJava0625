@@ -1,4 +1,4 @@
-package exercices.ex05_Classe
+package exercices.ex05_Classe;
 
 public class Livre {
 	// Attributs
@@ -14,7 +14,7 @@ public class Livre {
 	 * L'identifiant est attribue automatiquement
 	 */
 	public Livre(String titre, String auteur, double prix) {
-		this.id = prochainID++; 
+		this.id = Livre.prochainId++; 
 		this.titre = titre;
 		this.auteur = auteur;
 		this.prix = prix;
@@ -27,9 +27,9 @@ public class Livre {
 	public double getPrix() { return prix; }
 
 	// Mutateurs (set)
-	public void setTitre(String titre) { this.titre = titre }
-	public void setAuteur(String auteur) { this.auteur = auteur }
-	public void setPrix(float prix) { this.prix = prix }
+	public void setTitre(String titre) { this.titre = titre; }
+	public void setAuteur(String auteur) { this.auteur = auteur; }
+	public void setPrix(float prix) { this.prix = prix; }
 
 	@Override
 	public String toString() {

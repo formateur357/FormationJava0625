@@ -2,7 +2,7 @@ package exercices.ex02_Conditions;
 
 import java.util.Scanner;
 
-public class NoteAppSimple {
+public class NoteApp {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(

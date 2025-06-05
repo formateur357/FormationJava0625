@@ -1,5 +1,6 @@
-package exercices.ex04_Collections
+package exercices.ex04_Collections;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ListeLanguages {
@@ -11,7 +12,7 @@ public class ListeLanguages {
 		languages.add("JavaScript");
 		
 		// Affichage le plus simple
-		System.out.println("Contenu de la collection : ", languages);
+		System.out.println("Contenu de la collection : " + languages);
 		
 		// Affichage avec une boucle for-each
 		for (String lang : languages) {

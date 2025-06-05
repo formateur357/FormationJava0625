@@ -1,4 +1,4 @@
-package exercices.ex06_Classe2;
+package exercices.ex06_ClassRectangle;
 
 public class Rectangle {
 
@@ -16,8 +16,8 @@ public class Rectangle {
     public double getLongueur()           { return longueur; }
     public double getLargeur()            { return largeur;  }
 
-    public void   setLongueur(double l)   { this.longueur = l; }
-    public void   setLargeur(double l)    { this.largeur  = l; }
+    public void   setLongueur(double l)   { this.longueur = (l > 0) ?  l : this.longueur; }
+    public void   setLargeur(double l)    { this.largeur = (l > 0) ?  l : this.largeur; }
 
     /*--------------------- Méthodes --------------------*/
     /** Périmètre = 2 × (longueur + largeur) */

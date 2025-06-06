@@ -5,6 +5,10 @@ import java.util.Comparator;
 import java.util.List;
 
 public class TestVehicule {
+	
+	static void demarrer(Vehicule v) {
+		v.demarrer();
+	}
 
 	public static void main(String[] args) {
 

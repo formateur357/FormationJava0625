@@ -14,7 +14,7 @@ public class CalculetteSimple {
 		
 		int somme = nb + nb2;
 		
-		int produit = nb * nb2;
+		double produit = nb * nb2;
 		
 		System.out.println("Somme : " + somme + "\nProduit : " + produit);
 		
